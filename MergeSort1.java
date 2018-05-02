@@ -28,7 +28,7 @@ public class MergeSort1{
 			if(i>mid){
 				while(j<=end){
 					Temp[index]=a[j];
-					index++;i++;
+					index++;j++;
 				}
 			}
 			else{
@@ -37,7 +37,7 @@ public class MergeSort1{
 					index++;i++;
 				}
 			}
-				int k=0;
+				int k=beg;
 				while(k<index){
 					a[k]=Temp[k];
 					k++;
@@ -53,7 +53,7 @@ public class MergeSort1{
 			for(int j=0;j<n;j++){
 				a[j]=s.nextInt();
 			}	
-			msort(a,0,n-1);
+			msort(a,0,n);
 			for(int k=0;k<n;k++){
 				System.out.print(a[k]+" ");
 			}

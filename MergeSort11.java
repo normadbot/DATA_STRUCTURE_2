@@ -2,7 +2,7 @@ import java.lang.*;
 import java.util.*;
 class MergeSort11  {
 	
-static int a[] ={38,27,43,3,9,82,10};
+static int a[] ={38,27,43,3,9,82,10,1112,44,78,96,35,6,47,12,9666,2,788,14,5,6666,21,78,289,967,4785,3657};
 	void mergeSort(int a[],int beg,int end){
 		int mid;
 		if(beg<end){
